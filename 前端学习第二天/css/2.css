@@ -1,0 +1,17 @@
+div{
+  background-color:#00FFFF;
+  width:400px;
+  height:400px;
+  font-size:20px;
+  border-style:groove;
+  border-color:pink;
+  border-width:5px;
+  border-radius:30px;
+}
+h1{
+  text-align:center;
+  color:red;
+}
+p{
+  color:white;
+}
