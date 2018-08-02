@@ -28,19 +28,17 @@ CSS
 7、多个样式定义可层叠为一
 使用 display: block 给予其块级行为。
 选择器
-选择器名称 选择的内容 示例
-元素选择器 所有指定类型的 HTML 元素 p选择 <p>
-标识选择器 页面中指定标识的元素（在一个 HTML 页面中，每个标识只被允许指定到一个元素） #my-id选择 <p id="my-id"> 或 <a id="my-id">
-类别选择器 页面中指定类别的元素（一个页面中可以出现多个类别实例） .my-class选择 <p class="my-class"> 和 <a class="my-class">
-属性选择器 页面中拥有指定属性的元素 img[src]选择 <img src="myimage.png"> 而不是 <img>
-伪类选择器 指定的元素，但是需要在特殊的状态，比如悬停 a:hover选择 <a>, 但是只在鼠标悬停在链接上时
+元素选择器：所有指定类型的 HTML 元素 ，p选择 <p>
+标识选择器：页面中指定标识的元素（在一个 HTML 页面中，每个标识只被允许指定到一个元素），#my-id选择 <p id="my-id"> 或 <a id="my-id">
+类别选择器：页面中指定类别的元素（一个页面中可以出现多个类别实例），.my-class选择 <p class="my-class"> 和 <a class="my-class">
+属性选择器：页面中拥有指定属性的元素，img[src]选择 <img src="myimage.png"> 而不是 <img>
+伪类选择器：指定的元素，但是需要在特殊的状态，比如悬停 a:hover选择 <a>, 但是只在鼠标悬停在链接上时
 JS
 变量
-变量 解释 示例
-String 字符串（文字序列）。 要表示变量的值是字符串，你必须将它们用引号包裹起来。 var myVariable = 'Bob';
-Number 数字。不用引号包围。 var myVariable = 10;
-Boolean 布尔(逻辑)值。一个 True/False （真 / 假）值。 true/false 是 JS 里的特殊关键字，不需要引号。 var myVariable = true;
-Array 数组，一种允许你存储多个值在一个引用里的结构。 var myVariable = [1,'Bob','Steve',10];引用数组的元素只需：myVariable[0], myVariable[1], 等等.
-Object 对象，基本上 JavaScript 里的任何东西都是对象，而且都可以被储存在变量里。将这个牢记于心。 var myVariable = document.querySelector('h1');上面所有示例都是对象。
+字符串（文字序列）。 要表示变量的值是字符串，你必须将它们用引号包裹起来。 var myVariable = 'Bob';
+数字。不用引号包围。 var myVariable = 10;
+布尔(逻辑)值。一个 True/False （真 / 假）值。 true/false 是 JS 里的特殊关键字，不需要引号。 var myVariable = true;
+数组，一种允许你存储多个值在一个引用里的结构。 var myVariable = [1,'Bob','Steve',10];引用数组的元素只需：myVariable[0], myVariable[1], 等等.
+对象，基本上 JavaScript 里的任何东西都是对象，而且都可以被储存在变量里。将这个牢记于心。 var myVariable = document.querySelector('h1');上面所有示例都是对象。
 
 对于后续的学习，仍要以HTML、CSS、JS为基础进行深入学习
