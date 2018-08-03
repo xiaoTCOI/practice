@@ -1,0 +1,23 @@
+div{
+  background-color:#00FFFF;
+  width:400px;
+  height:400px;
+  border-style:groove;
+  border-color:pink;
+  border-width:5px;
+  border-radius:30px;
+  font-family:STSong;
+  font-weight:700;
+}
+h1{
+  text-align:center;
+  color:red;
+  font-size:32px;
+  text-shadow:4px 4px 5px red;
+}
+p{
+  color:orange;
+  text-decoration:underline;
+  line-height:1.5;
+  text-indent:2em;
+}
