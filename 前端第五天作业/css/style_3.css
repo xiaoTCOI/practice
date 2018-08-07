@@ -1,0 +1,64 @@
+.top{
+	background-color: #848484;
+}
+.bottom{
+
+}
+
+.one{
+	margin-right: 30px;
+}
+h1{
+	color:white;
+	margin: 5px;
+}
+h2{
+	color:#463E3A;
+	/*//float: left;*/
+	background-color: #D6D6D6;
+	display: inline-block;
+	height: 80px;
+	margin: 0px;
+	margin-top: -20px;
+	/*//padding-top: 40px;*/
+}
+.p{
+	/*float: left;*/
+	display: inline-block;
+	margin-top: 10px;
+}
+
+a:visited{
+	color:#3234E5;
+}
+.two{
+	color:#463E3A;
+}
+.three{
+	color:#323232;
+}
+/*.ml{
+	margin-left: 100px;
+	position: relative;
+
+}
+.ml_ml{
+	margin-top: -280px;
+	position: relative;
+	/*float: left;*/
+.np{
+	margin: 0px;
+	/*float: left;*/
+}
+
+.div1,.div2{
+	position: relative;
+	margin-left: 100px;
+
+}
+.div1{
+	margin-top: -78px;
+}
+.div2{
+	margin-top: -30px;
+}
