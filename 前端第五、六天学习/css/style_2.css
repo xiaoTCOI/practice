@@ -1,0 +1,34 @@
+.top{
+	background-color: #65A4FA;
+	display: inline-block;
+	width: 20%;
+	height: 850px;
+	text-align: center;
+
+
+}
+.bottom{
+	display: inline-block;
+	width: 75%;
+	float: right;
+}
+
+.one{
+	margin-right: 30px;
+}
+h1{
+	color:white;
+	margin-top: 50px;
+}
+h2{
+	color:#463E3A;
+}
+a:visited{
+	color:#3234E5;
+}
+.two{
+	color:#463E3A;
+}
+.three{
+	color:#323232;
+}
