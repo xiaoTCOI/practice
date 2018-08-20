@@ -1,0 +1,25 @@
+div{
+  background-color:#00FFFF;
+  width:400px;
+  height:500px;
+  font-size:20px;
+  border-style:groove;
+  border-color:pink;
+  border-width:5px;
+  border-radius:30px;
+}
+h1{
+  text-align:center;
+  color:red;
+}
+p{
+  color:white;
+}
+button{
+  width: 100px;
+  height: 50px;
+  margin-left: 50px;
+  background-color: pink;
+  border-radius: 10px;
+  cursor: pointer;
+}
