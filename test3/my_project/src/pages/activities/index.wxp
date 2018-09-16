@@ -1,0 +1,16 @@
+<template>
+  <view>Other Page</view>
+</template>
+
+<script>
+export default {
+  config: {
+    navigationBarTitleText: '其它',
+    usingComponents: {}
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

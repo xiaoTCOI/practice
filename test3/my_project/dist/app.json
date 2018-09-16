@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/other/index",
+    "pages/participate_activities/index",
+    "pages/personal/index",
+    "pages/publish_activities/index",
+    "pages/home_page/index",
+    "pages/enroll_activities/index",
+    "pages/enroll1_activities/index",
+    "pages/sign_in/index",
+    "pages/registration_payment/index",
+    "pages/publish/index",
+    "pages/detail_activities/index",
+    "pages/detail/index",
+    "pages/detail_main/index",
+    "pages/detail_album/index",
+    "pages/activities/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#F5F5F5",
+    "navigationBarBackgroundColor": "#49AB0A",
+    "navigationBarTitleText": "MinUI",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#B3B3B3",
+    "selectedColor": "#49AB0A",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home_page/index",
+        "text": "首页",
+        "iconPath": "/img/img_14.png",
+        "selectedIconPath": "/img/img_03.png"
+      },
+      {
+        "pagePath": "pages/publish/index",
+        "text": "发布",
+        "iconPath": "/img/img_16.png",
+        "selectedIconPath": "/img/img_05.png"
+      },
+      {
+        "pagePath": "pages/personal/index",
+        "text": "我的",
+        "iconPath": "/img/img_04.png",
+        "selectedIconPath": "/img/img_18.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  }
+}

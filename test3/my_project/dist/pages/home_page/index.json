@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "layout-head": "../../common/layout/head",
+    "layout-foot": "../../common/layout/foot",
+    "wxc-flex": "../../packages/@minui/wxc-flex/dist/index",
+    "wxc-icon": "../../packages/@minui/wxc-icon/dist/index",
+    "wxc-notice": "../../packages/@minui/wxc-notice/dist/index",
+    "wxc-button": "../../packages/@minui/wxc-button/dist/index",
+    "wxc-tab": "../../packages/@minui/wxc-tab/dist/index",
+    "wxc-tab-panel": "../../packages/@minui/wxc-tab/dist/panel",
+    "wxc-panel": "../../packages/@minui/wxc-panel/dist/index"
+  },
+  "navigationBarTitleText": "周游团"
+}

@@ -1,0 +1,25 @@
+<wxc-flex class='item' dir="top">
+    <!-- <layout-head _pid="{{_pid}}"></layout-head> -->
+
+    <!-- wxp template -->
+    <!-- <view>Other Page</view> -->
+
+    <!-- <layout-foot _pid="{{_pid}}"></layout-foot> -->
+    <view class='item_a'>共24人</view>
+    <wxc-flex class="flex item_b" dir="top">
+      <wxc-flex class="flex item_b1" cross="center" main="between" wx:for="{{people}}"
+    wx:for-item="man">
+        <wxc-flex class="flex item_b11" cross="center">
+          <image class='img1' src="{{man.img}}"></image>
+          <view class='item_b111'>{{man.name}}</view>
+        </wxc-flex>
+        <wxc-flex class='flex item_b12' cross="center" wx:if="{{man.judge}}">
+          <text class='item_b121'>签到时间 \n {{man.time}}</text>       
+        </wxc-flex>
+        <wxc-flex class='flex item_b13' cross="center" main="end" wx:else>
+          <view class='item_b131'>未签到</view>       
+        </wxc-flex>
+          
+      </wxc-flex>
+    </wxc-flex>
+</wxc-flex>

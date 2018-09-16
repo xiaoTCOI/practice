@@ -1,0 +1,8 @@
+<view>
+    <layout-head _pid="{{_pid}}"></layout-head>
+
+    <!-- wxp template -->
+    <view>Other Page</view>
+
+    <layout-foot _pid="{{_pid}}"></layout-foot>
+</view>

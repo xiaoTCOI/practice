@@ -1,0 +1,62 @@
+
+<wxc-flex class='flex view'>
+  <wxc-flex class="flex item" dir="top">
+
+    <!-- 奇趣小手艺 浓浓亲子情 -->
+    <navigator class="item_a" url='/pages/detail_main/index'>
+      <wxc-flex class="flex item_a1" main="center" cross="center">
+        <image class='img1' src='img/img_03.png'></image>
+      </wxc-flex>
+      <wxc-flex class="flex item_a2" dir="top">
+        <view class='item_a21'>奇趣小手艺 浓浓亲子情</view>
+        <wxc-flex class='item_a22' cross="center">
+          <image class='img2' src='img/img_01.png'></image>
+          <view class='item_a221'>2018.10.01—2018.10.05</view>
+        </wxc-flex>
+        <wxc-flex class='item_a23' cross="center">
+          <wxc-icon class='icon icon_type' size='40' type='address' color='#F1953C'></wxc-icon>
+          <view class='item_a231'>石桥铺正街99号红槽房</view>
+        </wxc-flex>
+      </wxc-flex>
+    </navigator>
+
+    <!-- 携手合众  你我共赢 -->
+    <navigator class="item_b">
+      <wxc-flex class="flex item_a1" main="center" cross="center">
+          <image class='img1' src='img/img_06.png'></image>
+        </wxc-flex>
+        <wxc-flex class="flex item_a2" dir="top">
+          <view class='item_a21'>携手合众  你我共赢</view>
+          <wxc-flex class='item_a22' cross="center">
+            <image class='img2' src='img/img_01.png'></image>
+            <view class='item_a221'>2018.10.01—2018.10.05</view>
+          </wxc-flex>
+          <view class='item_a24'>10:00—11:00</view>
+          <wxc-flex class='item_a23' cross="center">
+            <wxc-icon class='icon icon_type' size='40' type='address' color='#F1953C'></wxc-icon>
+            <view class='item_a231'>石桥铺正街99号红槽房</view>
+          </wxc-flex>
+        </wxc-flex>
+    </navigator>
+
+    <!-- 大型亲子活动 -->
+    <navigator class="item_c">
+      <wxc-flex class="flex item_a1" main="center" cross="center">
+        <image class='img1' src='img/img_08.png'></image>
+      </wxc-flex>
+      <wxc-flex class="flex item_a2" dir="top">
+        <view class='item_a21'>大型亲子活动</view>
+        <wxc-flex class='item_a22' cross="center">
+          <image class='img2' src='img/img_01.png'></image>
+          <view class='item_a221'>2018.10.01—2018.10.05</view>
+        </wxc-flex>
+        <view class='item_a24'>10:00—11:00</view>
+        <wxc-flex class='item_a23' cross="center">
+          <wxc-icon class='icon icon_type' size='40' type='address' color='#F1953C'></wxc-icon>
+          <view class='item_a231'>石桥铺正街99号红槽房</view>
+        </wxc-flex>
+      </wxc-flex>
+    </navigator>
+
+  </wxc-flex>
+</wxc-flex>

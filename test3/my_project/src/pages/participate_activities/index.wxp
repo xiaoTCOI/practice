@@ -1,0 +1,16 @@
+<template>
+  <view>ParticipateActivities Page</view>
+</template>
+
+<script>
+export default {
+  config: {
+    navigationBarTitleText: '加活动活动',
+    usingComponents: {}
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

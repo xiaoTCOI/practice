@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "layout-head": "../../common/layout/head",
+    "layout-foot": "../../common/layout/foot"
+  },
+  "navigationBarTitleText": "杨杨",
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "white",
+  "backgroundColor": "#F5F5F5",
+  "navigationBarTextStyle": "black"
+}

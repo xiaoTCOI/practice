@@ -1,0 +1,16 @@
+<template>
+  <view>Personal Page</view>
+</template>
+
+<script>
+export default {
+  config: {
+    navigationBarTitleText: '个人中心',
+    usingComponents: {}
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

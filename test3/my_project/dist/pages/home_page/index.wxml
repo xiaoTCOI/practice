@@ -1,0 +1,88 @@
+<!-- <view> -->
+    <!-- <layout-head _pid="{{_pid}}"></layout-head> -->
+
+    <!-- wxp template -->
+    <!-- <view>Other Page</view> -->
+
+    <!-- <layout-foot _pid="{{_pid}}"></layout-foot> -->
+<!-- </view> -->
+<wxc-flex class="flex item" dir="top">
+
+  <!-- 第一部分 -->
+  <view class='item_a'>
+    <image class='img1' src='img/img_03.png'></image>
+  </view>
+
+  <!-- 通知栏 -->
+  <wxc-flex class="flex item_b" cross="center" main="center">
+    <wxc-button class="btn" type='notice' size='small'>消息通知</wxc-button>
+    <wxc-notice notice="你报名参加的“携手合众 你我共赢”已经开始啦" bg-color="white" color="black"></wxc-notice>
+  </wxc-flex>
+
+  <wxc-flex class="flex item_c" dir="top" main="between">
+    <navigator class="item_c1">
+      <view class='item_c11'>进行中</view>
+      <wxc-icon type='arrow-right' color='#BBBBBB'>
+      </wxc-icon>
+    </navigator>
+
+    <!-- 奇趣小手艺 浓浓亲子情 -->
+    <navigator class="item_c2" url='/pages/activities/index'>
+      <wxc-flex class="flex item_c21" main="center" cross="center">
+        <image class='img2' src='img/img_06.png'></image>
+      </wxc-flex>
+      <wxc-flex class="flex item_c22" dir="top">
+        <view class='item_c221'>奇趣小手艺 浓浓亲子情</view>
+        <wxc-flex class='item_c222' cross="center">
+          <image class='img3' src='img/img_01.png'></image>
+          <view class='item_c2221'>2018.10.01—2018.10.05</view>
+        </wxc-flex>
+        <wxc-flex class='item_c223' cross="center">
+          <wxc-icon class='icon icon_type' size='40' type='address' color='#F1953C'></wxc-icon>
+          <view class='item_c2231'>石桥铺正街99号红槽房</view>
+        </wxc-flex>
+        <!-- <view class='item_c2232'>24人已报名</view> -->
+      </wxc-flex>
+    </navigator>
+  </wxc-flex>
+
+  <!-- <view class="item_d"> -->
+      <wxc-tab 
+      bind:tabchange="onClick"
+      default-index= "1"
+      active-text-color="#108ee9"
+      active-line-color="#108ee9"
+      >
+        <wxc-tab-panel
+        wx:for="{{tabs}}"
+        wx:for-item="tab"
+        tab-index="1"
+        label="{{tab.title}}"
+        >
+          <navigator class="item_activities" url='/pages/detail_main/index'>
+            <wxc-flex class="flex item_act1" main="center" cross="center">
+              <image class='img2a' src='img/img_06.png'></image>
+            </wxc-flex>
+            <wxc-flex class="flex item_act2" dir="top">
+              <view class='item_act21'>奇趣小手艺 浓浓亲子情</view>
+              <wxc-flex class='item_act22' cross="center">
+                <image class='img3a' src='img/img_01.png'></image>
+                <view class='item_act221'>2018.10.01—2018.10.05</view>
+              </wxc-flex>
+              <wxc-flex class='item_act23' cross="center">
+                <wxc-icon class='icon icon_type' size='40' type='address' color='#F1953C'></wxc-icon>
+                <view class='item_act231'>石桥铺正街99号红槽房</view>
+              </wxc-flex>
+              <view class='item_act24'>24人已报名</view>
+            </wxc-flex>
+          </navigator> 
+        </wxc-tab-panel>
+      </wxc-tab>
+    <!-- </view> -->
+    <!-- <wxc-flex class="flex item_d2"></wxc-flex>
+    <wxc-flex class="flex item_d3"></wxc-flex>
+    <wxc-flex class="flex item_d4"></wxc-flex> -->
+  <!-- </wxc-flex> -->
+  <!-- <wxc-flex class="flex item_e"></wxc-flex> -->
+
+</wxc-flex>

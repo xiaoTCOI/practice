@@ -1,0 +1,19 @@
+<wxc-flex class='item' dir="top">
+    <!-- <layout-head _pid="{{_pid}}"></layout-head> -->
+
+    <!-- wxp template -->
+    <!-- <view>Other Page</view> -->
+
+    <!-- <layout-foot _pid="{{_pid}}"></layout-foot> -->
+    <view class='item_a'>共24人</view>
+    <wxc-flex class="flex item_b" dir="top">
+      <navigator class="item_b1"wx:for="{{people}}"
+    wx:for-item="man" url='/pages/detail_album/index'>
+        <wxc-flex class="flex item_b11" cross="center">
+          <image class='img1' src="{{man.img}}"></image>
+          <view class='item_b111'>{{man.name}}</view>
+        </wxc-flex>
+        <wxc-flex class='flex item_b12' cross="center" main="end">{{man.time}}</wxc-flex>
+      </navigator>
+    </wxc-flex>
+</wxc-flex>

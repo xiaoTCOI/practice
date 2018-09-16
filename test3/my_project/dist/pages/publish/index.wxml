@@ -1,0 +1,27 @@
+<!-- <view> -->
+    <!-- <layout-head _pid="{{_pid}}"></layout-head> -->
+    <!-- wxp template -->
+    <!-- <view>Other Page</view>
+    <layout-foot _pid="{{_pid}}"></layout-foot> -->
+<!-- </view> -->
+<image src='img/img_02.png' class='img1'></image>
+<view class="container">
+  <view class="input-wrap">
+    <wxc-input type="text" title="标题" placeholder="输入活动标题"></wxc-input>
+    <wxc-input type="number" title="人数" placeholder="输入参与人数，不填则表示不限制 "></wxc-input>
+    <wxc-input type="text" title="时间"  placeholder="输入活动时间"></wxc-input>
+    <wxc-input type="text" title="地址" placeholder="选择活动地址"></wxc-input>
+    <wxc-input type="text" title="费用" placeholder="选择费用方式"></wxc-input>
+    <wxc-input type="text" title="详情" placeholder="输入活动要求"></wxc-input>
+  </view>
+  <view class="input-wrap">
+    <wxc-input type="text" title="发布人"></wxc-input>
+    <wxc-input type="number" title="电话"></wxc-input>
+  </view>
+  <wxc-flex class="flex item" main="center">
+    <wxc-button type="notice" size='large'>立即上传</wxc-button>
+  </wxc-flex>
+
+  
+</view>
+

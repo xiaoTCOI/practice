@@ -1,0 +1,79 @@
+<!-- <view> -->
+    <!-- <layout-head _pid="{{_pid}}"></layout-head> -->
+
+    <!-- wxp template -->
+    <!-- <view>Other Page</view> -->
+
+    <!-- <layout-foot _pid="{{_pid}}"></layout-foot> -->
+<!-- </view> -->
+<wxc-flex class="flex item" dir="top">
+  <wxc-flex class="flex item_img">
+    <image class='img1' src='{{activities.src}}'></image>
+  </wxc-flex>
+  <wxc-flex class="flex item_a" main="between" cross="center">
+    <wxc-flex class='flex item_a1' cross="center">{{activities.title}}</wxc-flex>
+    <wxc-flex class='flex item_a2' cross="center" main="end">{{activities.price}}          </wxc-flex>
+  </wxc-flex>
+  <wxc-flex class="flex item_b" dir="top" main="between">
+    <wxc-flex class="flex item_b1" cross="center">
+      <wxc-flex class="flex item_b11" main="center" cross="center">
+        <image class='img2' src='img/img_05.png'></image>
+      </wxc-flex>
+      <text class='text_1'>{{activities.time}}</text>
+    </wxc-flex>
+    <wxc-flex class="flex item_b2" cross="center">
+      <wxc-flex class="flex item_b11" main="center" cross="center">
+        <image class='img2' src='img/img_08.png'></image>
+      </wxc-flex>
+      <text class='text_1'>{{activities.address}}</text>
+    </wxc-flex>
+    <wxc-flex class="flex item_b3" dir="top">
+      <text class='text_2'>{{activities.content}}</text>
+    </wxc-flex>
+  </wxc-flex>
+  <wxc-flex class="flex item_c" dir="top" main="between">
+    <wxc-flex class="flex item_c1" cross="center">发布人</wxc-flex>
+    <wxc-flex class="flex item_c2" cross="center">
+      <wxc-flex class="flex item_c21" dir="top" cross="center" main="center">
+        <image class='img3' src='{{activities.publisher.src}}'></image>
+        <text class='item_c211'>{{activities.publisher.another_name}}</text>
+      </wxc-flex>
+      <text class='text_3'>{{activities.publisher.name}}</text>
+      <text class='text_4'>{{activities.publisher.phone}}</text>
+    </wxc-flex>
+  </wxc-flex>
+  <wxc-flex class="flex item_d" dir="top" main="between">
+    <wxc-flex class="flex item_d1" cross="center" main="between">
+      <text class='text_5'>报名人数</text>
+      <wxc-flex class="flex item_d11" main="around">
+        <wxc-flex class="flex item_d111a" main="center" cross="center">
+          <image class='img_1' src='img/img_01.png'></image>
+          <text class='text_6'>
+            <text>24</text>
+            <text class='text_61'>/28</text>
+          </text>
+        </wxc-flex>
+        <wxc-flex class="flex item_d111" main="center" cross="center">
+          <image class='img4' src='img/img_03.png'></image>
+          <text class='text_6'>18</text>
+        </wxc-flex>
+        <wxc-flex class="flex item_d111" main="center" cross="center">
+          <image class='img4' src='img/img_04.png'></image>
+          <text class='text_6'>18</text>
+        </wxc-flex>
+      </wxc-flex>
+    </wxc-flex>
+    <wxc-flex class="flex item_d2" main="end" cross="center">
+      <wxc-flex class="flex item_d21" dir="top" cross="center" main="center" wx:for="{{activities.people}}" wx:for-item="man">
+        <image class='img_5' src='{{man.src}}'></image>
+        <text>{{man.name}}</text>
+      </wxc-flex>
+      <wxc-icon size="50" class="icon" type="arrow-right" color='#BDBDBD'></wxc-icon>
+    </wxc-flex>
+    
+  </wxc-flex>
+  <wxc-flex class='flex item_e'>
+    <button class='btn_share'>分享</button>
+    <button class='btn_enroll'>报名</button>
+  </wxc-flex>
+</wxc-flex>

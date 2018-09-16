@@ -1,0 +1,56 @@
+<!-- <view> -->
+    <!-- <layout-head _pid="{{_pid}}"></layout-head> -->
+    <!-- wxp template -->
+    <!-- <view>Personal Page</view> -->
+    <!-- <layout-foot _pid="{{_pid}}"></layout-foot> -->  
+<!-- </view> -->
+<wxc-flex class="flex item" dir="top" main="between">
+
+    <!-- 上部分 -->
+    <wxc-flex class="flex item_a" dir="top" main="between">
+
+      <!-- 基本信息 -->
+      <wxc-flex class="flex item_a1" dir="top" main="around" cross="center">
+
+        <!-- 头像 -->
+        <view class='item_a11'>
+          <image class='img1' src='img/img_03.png'></image>
+        </view>
+
+        <view class='item_a12'>张石石</view>
+        <view class='item_a13'>编辑个人资料</view>        
+      </wxc-flex>
+
+      <!-- 列表 -->
+      <wxc-flex class="flex item_a2" dir="top" main="between">
+        <navigator class="item_a21" url='/pages/participate_activities/index'>
+          <image class='img' src='img/img_07.png'></image>
+          <wxc-list class="list__body list_item" title="我参与的活动"></wxc-list>
+        </navigator>
+        <navigator class="item_a22" url='/pages/publish_activities/index'>
+          <image class='img' src='img/img_11.png'></image>
+          <wxc-list class="list__body list_item" title="我发布的活动"></wxc-list>
+        </navigator>
+      </wxc-flex>
+
+    </wxc-flex>
+
+    <!-- 底部 -->
+    <!-- <wxc-flex class="flex item_b" main="center">
+      <wxc-flex class="flex item_b1" main="between" cross="center">
+        <navigator class='item_b11' url="/pages/other/index">
+          <image class='img_b' src='img/img_14.png'></image>
+          <view class='item_b111'>首页</view>
+        </navigator>
+        <navigator class='item_b11' url="/pages/other/index">
+          <image class='img_b' src='img/img_16.png'></image>
+          <view class='item_b112'>发布</view>
+        </navigator>
+        <navigator class='item_b11' url="/pages/other/index">
+          <image class='img_b' src='img/img_18.png'></image>
+          <view class='item_b113'>我的</view>
+        </navigator>
+      </wxc-flex>
+    </wxc-flex> -->
+
+</wxc-flex>

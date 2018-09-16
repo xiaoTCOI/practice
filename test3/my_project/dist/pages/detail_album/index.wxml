@@ -1,0 +1,54 @@
+<view class='container'>
+  <view class='publish_content'>
+    <view class='user'>
+      <image class='img1' src='img/img_03.png'></image>
+      <view class='time'>
+        <text>杨杨</text>
+        <text>2018-06-07 14:30</text>
+      </view>
+    </view>
+    <view class='images'>
+     <image class='img2' src='img/img_07.png'></image>
+    </view>
+    <view class='images'>
+     <image class='img3' src='img/img_10.png'></image>
+    </view>
+    <view class='btns'> 
+      <!-- <view class='up'> -->
+        <image class='img4' src='img/img_14.png'></image>
+        <view class='btn'>
+          <text>2</text>
+          <image class='img5' src='img/img_17.png'></image>
+        </view>
+      <!-- </view> -->
+      <!-- <view class='zan'>
+        <view class='btn'>
+          <text>2</text>
+          <image class='img5' src='img/img_17.png'></image>
+        </view>
+      </view> -->
+    </view>
+  </view>
+  <view class='publish_content'>
+    <view class='user'>
+      <image class='img1' src='img/img_03.png'></image>
+      <view class='time'>
+        <text>杨杨</text>
+        <text>2018-06-07 14:30</text>
+      </view>
+    </view>
+    <view class='images'>
+     <image class='img2' src='img/img_07.png'></image>
+    </view>
+    <view class='images'>
+     <image class='img3' src='img/img_10.png'></image>
+    </view>
+    <view class='btns'> 
+        <image class='img4' src='img/img_14.png'></image>
+        <view class='btn'>
+          <text>2</text>
+          <image class='img5' src='img/img_17.png'></image>
+        </view>
+    </view>
+  </view>
+</view>

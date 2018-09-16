@@ -1,0 +1,18 @@
+<!-- <view> -->
+    <!-- <layout-head _pid="{{_pid}}"></layout-head> -->
+    <!-- wxp template -->
+    <!-- <view>Other Page</view>
+    <layout-foot _pid="{{_pid}}"></layout-foot> -->
+<!-- </view> -->
+<view class="container">
+  <view class="input-wrap">
+    <wxc-input type="text" title="姓名" placeholder="报名者姓名"></wxc-input>
+    <wxc-input type="number" title="电话" placeholder="填写联系方式"></wxc-input>
+    <wxc-input type="number" title="大人" placeholder="填写大人的人数"></wxc-input>
+    <wxc-input type="number" title="小孩" placeholder="填写小孩的人数"></wxc-input>
+    <wxc-flex class="flex item" main="center" cross="center">
+      <wxc-button class='button' type='notice'>提交</wxc-button>
+    </wxc-flex>
+  </view>
+ 
+</view>

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "layout-head": "../../common/layout/head",
+    "layout-foot": "../../common/layout/foot",
+    "wxc-input": "../../packages/@minui/wxc-input/dist/index",
+    "wxc-button": "../../packages/@minui/wxc-button/dist/index",
+    "wxc-flex": "../../packages/@minui/wxc-flex/dist/index"
+  },
+  "navigationBarTitleText": "周游团"
+}
