@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>骨质检测</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<!-- 骨质检测首页 -->
+	<div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+		<!-- 头部 -->
+		<div class="row top" style="margin: 0;">
+			<h1 class="title">骨质检测</h1>
+		</div>
+
+		<!-- 导航 -->
+		<div class="row nav" style="margin: 0;">
+			<ul class="col-sm-2 col-md-push-10">
+				<li><a href="html/login.html">登录</a></li>
+				<li><a href="html/register.html">注册</a></li>
+			</ul>
+		</div>
+		
+		<!-- 测试内容 -->
+		<div class="row center-block content ">
+
+			<!-- 功能概况 -->
+			<div class="row center-block content-introduce">
+				<h3> 功能概况：</h3>
+				<p>根据输入的各项指标数据（包括性别、年龄、身高、体重、骨密度、白蛋白含量、钙含量、磷含量、碱性磷酸酶含量、血红蛋白含量、淋巴细胞含量）预测骨质疏松骨质预测等级（轻微度、中度、重度、危险度）。同时根据骨质疏松骨折预测等级给患者提出防患建议（包括运动量建议、饮食建议、用药建议和辅助治疗建议）。</p>
+			</div>
+
+			<!-- 测试表单 -->
+			<form role="form" class="test-form">
+				<h4 class="text-center" style="color: #5565BD;"><strong>请输入各项指标</strong></h4>
+				<div class="form-group">
+					<div class="col-sm-4 col-md-push-2">
+						<input type="text" class="form-control input" id="bmd"
+			   placeholder="请输入骨密度" onblur="check(this)">
+					   	<input type="text" class="form-control input" id="alb" 
+					   placeholder="请输入白蛋白含量" onblur="check(this)">
+					   <input type="text" class="form-control input" id="ca" 
+				   placeholder="请输入钙含量" onblur="check(this)">
+					   	<input type="text" class="form-control input" id="p" 
+					   placeholder="磷含量" onblur="check(this)">
+					   <input type="text" class="form-control input" id="alp" 
+				   placeholder="碱性磷酸酶含量" onblur="check(this)">
+					   	<input type="text" class="form-control input" id="hb" 
+					   placeholder="请输入血红蛋白含量" onblur="check(this)">
+					   <input type="text" class="form-control input" id="lym" 
+				   placeholder="请输入淋巴细胞含量" onblur="check(this)">
+					</div>
+					<div class="col-sm-4 col-md-push-2">
+						<input type="text" class="form-control input" id="age" 
+			   placeholder="请输入年龄" onblur="check(this)">
+					   	<input type="text" class="form-control input" id="weight" 
+					   placeholder="请输入体重（kg）" onblur="check(this)">
+					   	<input type="text" class="form-control input" id="height" 
+					   placeholder="请输入身高（cm）" onblur="check(this)">
+					   	<span>男</span>
+					   	<input type="radio" checked="checked" id="sex" name="sex" value="1">
+					   	<span style="margin-left: 10px;">女</span>
+					   	<input type="radio" id="sex" name="sex" value="0">
+					   	<br>
+					   	<input type="button" class="btn btn-primary" id="startTest" name="" value="开始测试" style="margin-top: 100px; margin-right: 50px;">
+						<input type="button" class="btn btn-primary" id="clear" name="" value="清空数据" style="margin-top: 100px;">
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

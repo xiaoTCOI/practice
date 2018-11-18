@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper ><!--namesapce="com.od.demo.dao.UserDao"-->
+    <resultMap id="user" type="com.od.demo.pojo.User">
+        <id property=" userId" column="userId"></id>
+        <result property="userName" column="userName"></result>
+        <result property="password" column="password"></result>
+        <result property="assurePassword" column="assurePassword"></result>
+        <result property="gender" column="gender"></result>
+        <result property="email" column="eamil"></result>
+        <result property="teleNumber" column="teleNumber"></result>
+        <result property="identity" column="identity"></result>
+        <result property="birthday" column="birthday"></result>
+    </resultMap>
+    
+    <insert id="insertUsers" >
+        insert into users (userName,password,assurePassword,userId,gender,email,teleNumber,status,birthday)
+          values (#{userName},#{password},#{assurePassword},#{userId},#{gender},#{email},#{teleNumber},#{status},#{birthday});
+    </insert>
+</mapper>

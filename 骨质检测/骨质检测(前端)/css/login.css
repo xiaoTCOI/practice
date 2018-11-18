@@ -1,0 +1,29 @@
+.login{
+	/*width: 60%;*/
+	height: 400px;
+	border: 2px solid #EDEDED;
+	border-radius: 10px;
+	margin-top: 100px;
+}
+.login h3{
+	color: #96E1FA;
+}
+.input{
+	width: 200px;
+	margin-top: 20px;
+	/*display: inline-block;*/
+}
+.btn{
+	margin-top: 30px;
+	margin-left: 40px;
+	width: 180px;
+}
+ul{
+	list-style: none;
+	display: inline;
+	
+}
+ul li{
+	display:inline;
+	margin-left: 20px;
+}

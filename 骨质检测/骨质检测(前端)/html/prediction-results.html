@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/prediction-results.css">
+	<link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<title>预测结果</title>
+</head>
+<body>
+	<div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+		<!-- 头部 -->
+		<div class="row top" style="margin: 0;">
+			<h1 class="title">预测结果</h1>
+		</div>
+
+		<!-- 导航 -->
+		<div class="row nav" style="margin:0; padding-top: 8px;">
+			<span class="homepage"><a href="../html/logged-in.html"><strong>返回首页</strong></a></span>
+			<div class="dropdown pull-right" style="margin-right: 20px;">
+				<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+			data-toggle="dropdown">
+					我的<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="#">我的资料</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="prediction-results.html">测试结果</a>
+					</li>
+					<li role="presentation" class="divider"></li>
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="login.html">切换账号</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="login.html">退出登录</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- 预测结果 -->
+		<form role="form" class="form-horizontal result center-block">
+			<div class="form-group" role="form" style="margin-top: 50px;">
+			    <label class="control-label col-sm-2 col-md-push-3">预测等级</label>
+			    <div class="col-sm-3 col-md-push-3">
+			      <input type="text" class="form-control" id="class">
+			    </div>
+    		</div>
+		    <div class="form-group">
+		    	<label class="control-label col-sm-2 col-md-push-3">建&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;议</label>
+		    	<textarea class="col-sm-4 col-md-push-3" id="advise" rows="10"></textarea>
+		    </div>
+		</form>
+	</div>
+</body>
+</html>

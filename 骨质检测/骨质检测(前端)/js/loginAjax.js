@@ -1,0 +1,19 @@
+$(function(){
+    $("#loginBtn").click(function(){
+        $.ajax({
+            type:"post",
+            url:"",
+            dataType:"json",
+            data:{
+                userName:$("#userName").val(),
+                password:$("#password").val(),
+            },
+            success:function(date){
+                location.href = "logged-in.html";
+            },
+            error:function(request){
+                alert("登录失败");
+            },
+        });
+    });
+});

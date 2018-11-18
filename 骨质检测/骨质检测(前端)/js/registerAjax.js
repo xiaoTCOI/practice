@@ -1,0 +1,26 @@
+$(function(){
+    $("#registerBtn").click(function(){
+        $.ajax({
+            type:"post",
+            url:"",
+            dataType:"json",
+            data:{
+                userName:$("#userName").val(),
+                password:$("#password").val(),
+                teleNumber:$("#teleNumber").val(),
+                userId:$("#userId").val(),
+                email:$("#email").val(),
+                birthday:$("#birthday").val(),
+                identity:$("#identity").val(),
+                gender:$("#sex").val(),
+            },
+            success:function(data){
+                alert("注册成功");
+                location.href = "login.html";
+            },
+            error:function(request){
+                alert("注册失败");
+            },
+        });
+    });
+});
